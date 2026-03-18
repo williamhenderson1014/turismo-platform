@@ -1,0 +1,121 @@
+PROPUESTA DE DESARROLLO - PLATAFORMA DE TURISMO
+
+Estimado cliente,
+
+Gracias por considerar nuestra propuesta para el desarrollo de su plataforma de turismo. Hemos analizado cuidadosamente los requerimientos del proyecto y preparamos esta propuesta detallada.
+
+---
+
+ALCANCE DEL PROYECTO
+
+El proyecto consiste en transformar el sitio web actual (HTML estático) en una plataforma dinámica y moderna con las siguientes funcionalidades:
+
+SITIO PÚBLICO:
+- Página de inicio con paquetes destacados y llamados a la acción
+- Catálogo de paquetes turísticos con búsqueda y filtros por categoría
+- Páginas de detalle de paquetes con itinerario completo, precios y disponibilidad
+- Formulario de contacto y solicitud de cotizaciones
+- Diseño responsive (móvil, tablet, escritorio)
+
+PANEL DE ADMINISTRACIÓN:
+- Dashboard con métricas clave (reservas, ingresos, cotizaciones pendientes)
+- Gestión de Paquetes (CRUD completo con itinerarios, precios, imágenes)
+- CRM de Clientes (historial de reservas, comunicación, segmentación)
+- Gestión de Reservas (estados, pagos, confirmaciones)
+- Sistema de Cotizaciones (seguimiento, respuestas, conversión)
+- Reportes (ingresos por paquete, clientes top, análisis de conversión)
+- Configuración (empresa, WhatsApp, pagos, notificaciones)
+
+INTEGRACIONES:
+- WhatsApp Business API (mensajes automáticos, notificaciones)
+- Transbank Webpay (pagos con tarjeta de crédito/débito)
+- Sistema de emails transaccionales
+
+---
+
+TECNOLOGÍAS PROPUESTAS
+
+Backend: Laravel 11 con PHP 8.3
+Frontend: Blade + Tailwind CSS + Alpine.js
+Base de datos: MySQL 8.0
+Pasarela de pago: Transbank Webpay Plus
+Mensajería: WhatsApp Business API
+Hosting: Servidor VPS con SSL
+
+---
+
+DEMO DISPONIBLE
+
+Hemos preparado una demo funcional del frontend para que pueda visualizar la propuesta:
+
+GitHub: https://github.com/williamhenderson1014/turismo-platform
+
+Para ejecutar localmente:
+1. Clonar el repositorio
+2. npm install
+3. npm run dev
+4. Abrir http://localhost:3000
+
+La demo incluye:
+- Navegación completa del sitio público
+- Panel de administración funcional
+- Diseño responsive
+- Datos de ejemplo de paquetes chilenos
+
+---
+
+PÁGINAS INCLUIDAS
+
+Públicas:
+- Inicio (/)
+- Paquetes (/paquetes)
+- Detalle de paquete (/paquetes/[id])
+- Contacto (/contacto)
+
+Administración:
+- Dashboard (/admin)
+- Paquetes (/admin/paquetes)
+- Clientes (/admin/clientes)
+- Reservas (/admin/reservas)
+- Cotizaciones (/admin/cotizaciones)
+- Reportes (/admin/reportes)
+- Configuración (/admin/configuracion)
+
+---
+
+METODOLOGÍA DE TRABAJO
+
+1. Kickoff y levantamiento de requerimientos
+2. Diseño de base de datos y arquitectura
+3. Desarrollo backend (Laravel)
+4. Integración de pasarela de pago (Transbank)
+5. Integración de WhatsApp Business
+6. Pruebas y QA
+7. Migración de contenido actual
+8. Capacitación del equipo
+9. Lanzamiento y soporte
+
+---
+
+ENTREGABLES
+
+- Código fuente completo
+- Documentación técnica
+- Manual de usuario
+- Capacitación del equipo (2 sesiones)
+- 30 días de soporte post-lanzamiento
+
+---
+
+GARANTÍA
+
+- Corrección de bugs: 90 días sin costo
+- Soporte técnico incluido: 30 días
+- Disponibilidad del código: 100%
+
+---
+
+Quedamos atentos a sus comentarios y consultas.
+
+Saludos cordiales,
+Equipo de Desarrollo
